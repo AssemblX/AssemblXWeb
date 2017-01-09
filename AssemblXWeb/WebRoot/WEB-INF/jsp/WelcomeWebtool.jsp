@@ -138,7 +138,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 						assembly steps. Finally, a complete benchtop protocol for cloning
 						of the desired multi-gene construct is returned, together with
 						reference sequences for all assembled products. <a
-							href="https://github.com/gremmels/BioInfGit/tree/master/AssemblXWeb"
+							href="https://github.com/AssemblX/AssemblXWeb"
 							target="_blank">AssemblX web tool at GitHub</a>
 						<div id="references">
 							<ol>
