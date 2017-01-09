@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project adv-config="true">
+  <disabled-container path="com.genuitec.runtime.library/com.genuitec.struts_2.1"/>
+  <container path="com.genuitec.runtime.library/com.genuitec.hibernate_4.1">
+    <jar-attrs id="data/4.1/lib/core/hibernate-core-4.1.4.Final.jar">
+      <attribute name="source-path" value="F:\Software-Installer\Hibernate\hibernate-release-4.1.4.Final.zip"/>
+      <attribute name="source-path-root"/>
+      <attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/orm/4.1/javadocs/"/>
+    </jar-attrs>
+  </container>
+  <container path="com.genuitec.runtime.library/com.genuitec.struts_2.1">
+    <disable name="Program Files " type="custom_jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-test-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/oval-1.31.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-dojo-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/xpp3_min-1.1.4c.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/google-collections-1.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-testng-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-servlet-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.apache.felix.framework-4.0.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-freemarker-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-web-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-el-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-extras-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.apache.felix.main-4.0.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-autotag-core-runtime-1.1.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/asm-3.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-collections-3.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/antlr-2.7.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/xstream-1.4.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-mustache-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-jfreechart-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-lang3-3.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/dwr-1.1.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-convention-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-tiles3-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-cdi-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-beanutils-1.8.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-junit-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-sitegraph-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-io-2.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.osgi.core-4.1.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/ezmorph-1.0.6.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-beans-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-embeddedjsp-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-codebehind-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/classworlds-1.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-api-2.0.6.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-velocity-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-context-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/google-gxp-0.2.4-beta.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-json-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-compat-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-portlet-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/jackson-mapper-asl-1.9.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-fileupload-1.3.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/asm-commons-3.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/plexus-utils-1.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-javatemplates-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-validator-1.3.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/aopalliance-1.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-config-browser-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-spring-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-logging-1.1.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-lang-2.4.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts-core-1.3.10.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-aop-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/plexus-container-default-1.0-alpha-10.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/builder-0.6.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/sitemesh-2.4.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-oval-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-osgi-demo-bundle-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-servlet-wildcard-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-pell-multipart-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-expression-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-digester-2.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-velocity-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-freemarker-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/guava-r09.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-jsf-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-core-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/oro-2.0.8.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-plexus-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-jsp-2.0.6.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.apache.felix.shell.tui-1.4.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-ognl-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/json-lib-2.3-jdk15.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-core-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-struts1-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-mvel-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/jackson-core-asl-1.9.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/mvel2-2.0.11.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/velocity-1.6.4.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/core-0.6.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/asm-tree-3.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-osgi-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-chain-1.2.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-gxp-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/javassist-3.11.0.GA.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/commons-logging-api-1.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/freemarker-2.3.22.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-asm-3.0.5.RELEASE.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.osgi.compendium-4.0.0.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-core-2.0.6.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-tiles-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-request-api-1.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/xwork-core-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-servlet-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/org.apache.felix.shell-1.4.3.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-rest-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-osgi-admin-bundle-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/ognl-3.0.6.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-sitemesh-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-dwr-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/xmlpull-1.1.3.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/tiles-template-3.0.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/juli-6.0.18.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/struts2-jasperreports-plugin-2.3.24.1.jar"/>
+    <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/velocity-tools-1.3.jar"/>
+    <forced-facet id="me.spring" version="1.2"/>
+    <forced-facet id="jst.jsf" version="1.1"/>
+    <forced-facet id="jsr.base" version="2.0"/>
+    <forced-facet id="jst.jsf" version="2.2"/>
+    <forced-facet id="jsr.base" version="1.0"/>
+    <forced-facet id="web.struts" version="1.3"/>
+    <forced-facet id="jst.jsf" version="1.2"/>
+    <forced-facet id="jst.jsf" version="2.1"/>
+    <forced-facet id="me.spring" version="2.5"/>
+    <forced-facet id="jst.jsf" version="2.0"/>
+    <forced-facet id="me.spring" version="3.1"/>
+    <forced-facet id="me.spring" version="3.0"/>
+    <forced-facet id="web.struts" version="1.1"/>
+    <forced-facet id="me.spring" version="4.1"/>
+    <forced-facet id="web.struts" version="1.0"/>
+    <forced-facet id="me.spring" version="2.0"/>
+    <forced-facet id="web.struts" version="1.2"/>
+  </container>
+</project>

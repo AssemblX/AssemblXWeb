@@ -1,0 +1,252 @@
+LOCUS       pL0D_4-R_linear      5019 bp    DNA     linear   UNA 
+ACCESSION   pLV036
+VERSION     pLV036.1
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     promoter        1..294
+                     /label="Lys promoter region"
+     Region          295..345
+                     /label=DR*
+     Site            join(349..356,352^353)
+                     /site_type="restriction site"
+                     /note="Name: SwaI"
+                     /note="Pattern: atttaaat"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 5491^5492"
+                     /note="cut_0_on_negative_strand: 5491^5492"
+                     /note="inhibited_by: 5': N6-methyladenosine"
+                     /note="star_activity: yes"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SwaI
+     Site            join(357..364,358^359)
+                     /site_type="restriction site"
+                     /note="Name: AscI"
+                     /note="Pattern: ggcgcgcc"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 5497^5498"
+                     /note="cut_0_on_negative_strand: 5501^5502"
+                     /note="inhibited_by: 5': 5-methylcytosine"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=AscI
+     Site            join(365..372,368^369)
+                     /site_type="restriction site"
+                     /note="Name: PmeI"
+                     /note="Pattern: gtttaaac"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 5507^5508"
+                     /note="cut_0_on_negative_strand: 5507^5508"
+                     /note="inhibited_by: "
+                     /note="star_activity: yes"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=PmeI
+     Site            join(373..380,378^379)
+                     /site_type="restriction site"
+                     /note="Name: SbfI"
+                     /note="Pattern: cctgcagg"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 5517^5518"
+                     /note="cut_0_on_negative_strand: 5513^5514"
+                     /note="inhibited_by: "
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SbfI
+     Site            join(381..388,386^387)
+                     /site_type="restriction site"
+                     /note="Name: FseI"
+                     /note="Pattern: ggccggcc"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 5525^5526"
+                     /note="cut_0_on_negative_strand: 5521^5522"
+                     /note="inhibited_by: 5': 5-methylcytosine"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=FseI
+     rep_origin      398..555
+                     /label=pBR322_origin
+     rep_origin      556..1017
+                     /label=pBR322_origin
+     CDS             complement(1130..1930)
+                     /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKEL
+                     LELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVK
+                     LQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLS
+                     TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYR
+                     TVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN*"
+                     /label=URA3
+     Site            join(1946..1953,1951^1952)
+                     /site_type="restriction site"
+                     /note="Name: SbfI"
+                     /note="Pattern: cctgcagg"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 1396^1397"
+                     /note="cut_0_on_negative_strand: 1392^1393"
+                     /note="inhibited_by: "
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SbfI
+     rep_origin      2160..3631
+                     /translation="MSTVPLVYSPVDREPLHDNSANIKRPLGSFVTSSAACFKPLTIP
+                     GPTTPCAFVMSAHSAILYTPAEYCNLTVLPMSANFLSSKSKKLYLADNAFSGLTVPSM
+                     EKSVKISTCVFSKQILGPNASTNSSNSLVVRTSNEAHKFVCFSCMILNSLAATGLG*"
+                     /label=2micron_origin
+     Site            join(3695..3702,3698^3699)
+                     /site_type="restriction site"
+                     /note="Name: SwaI"
+                     /note="Pattern: atttaaat"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 3143^3144"
+                     /note="cut_0_on_negative_strand: 3143^3144"
+                     /note="inhibited_by: 5': N6-methyladenosine"
+                     /note="star_activity: yes"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SwaI
+     CDS             complement(3976..4770)
+                     /label=Kana
+     Site            join(4944..4951,4945^4946)
+                     /site_type="restriction site"
+                     /note="Name: AscI"
+                     /note="Pattern: ggcgcgcc"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 4390^4391"
+                     /note="cut_0_on_negative_strand: 4394^4395"
+                     /note="inhibited_by: 5': 5-methylcytosine"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=AscI
+     Site            join(4952..4959,4957^4958)
+                     /site_type="restriction site"
+                     /note="Name: SbfI"
+                     /note="Pattern: cctgcagg"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 4402^4403"
+                     /note="cut_0_on_negative_strand: 4398^4399"
+                     /note="inhibited_by: "
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SbfI
+     Site            join(4960..4967,4963^4964)
+                     /site_type="restriction site"
+                     /note="Name: SwaI"
+                     /note="Pattern: atttaaat"
+                     /note="Number_of_matches: 3"
+                     /note="cut_0_on_positive_strand: 4408^4409"
+                     /note="cut_0_on_negative_strand: 4408^4409"
+                     /note="inhibited_by: 5': N6-methyladenosine"
+                     /note="star_activity: yes"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=SwaI
+     Site            join(4968..4975,4973^4974)
+                     /site_type="restriction site"
+                     /note="Name: FseI"
+                     /note="Pattern: ggccggcc"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 4418^4419"
+                     /note="cut_0_on_negative_strand: 4414^4415"
+                     /note="inhibited_by: 5': 5-methylcytosine"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=FseI
+     Site            join(4976..4983,4979^4980)
+                     /site_type="restriction site"
+                     /note="Name: PmeI"
+                     /note="Pattern: gtttaaac"
+                     /note="Number_of_matches: 2"
+                     /note="cut_0_on_positive_strand: 4424^4425"
+                     /note="cut_0_on_negative_strand: 4424^4425"
+                     /note="inhibited_by: "
+                     /note="star_activity: yes"
+                     /note="site_type: other"
+                     /note="restriction site"
+                     /label=PmeI
+     Region          4984..5019
+                     /label=D4*
+ORIGIN
+        1 TAGAGGCATC GCACAGTTTT AGCGAGGAAA ACTCTTCAAT AGTTTTGCCA GCGGAATTCC
+       61 ACTTGCAATT ACATAAAAAA TTCCGGCGGT TTTTCGCGTG TGACTCAATG TCGAAATACC
+      121 TGCCTAATGA ACATGAACAT CGCCCAAATG TATTTGAAGA CCCGCTGGGA GAAGTTCAAG
+      181 ATATATAAGT AACAAGCAGC CAATAGTATA AAAAAAAATC TGAGTTTATT ACCTTTCCTG
+      241 GAATTTCAGT GAAAAACTGC TAATTATAGA GAGATATCAC AGAGTTACTC ACTAATGACT
+      301 AACGAAAAGG TCTGGATAGA GAAGTTGGAT AATCCAACTC TTTCATGAAT TTAAATGGCG
+      361 CGCCGTTTAA ACCCTGCAGG GGCCGGCCCC GTAGAAAAGA TCAAAGGATC TTCTTGAGAT
+      421 CCTTTTTTTC TGCGCGTAAT CTGCTGCTTG CAAACAAAAA AACCACCGCT ACCAGCGGTG
+      481 GTTTGTTTGC CGGATCAAGA GCTACCAACT CTTTTTCCGA AGGTAACTGG CTTCAGCAGA
+      541 GCGCAGATAC CAAATACTGT TCTTCTAGTG TAGCCGTAGT TAGGCCACCA CTTCAAGAAC
+      601 TCTGTAGCAC CGCCTACATA CCTCGCTCTG CTAATCCTGT TACCAGTGGC TGCTGCCAGT
+      661 GGCGATAAGT CGTGTCTTAC CGGGTTGGAC TCAAGACGAT AGTTACCGGA TAAGGCGCAG
+      721 CGGTCGGGCT GAACGGGGGG TTCGTGCACA CAGCCCAGCT TGGAGCGAAC GACCTACACC
+      781 GAACTGAGAT ACCTACAGCG TGAGCTATGA GAAAGCGCCA CGCTTCCCGA AGGGAGAAAG
+      841 GCGGACAGGT ATCCGGTAAG CGGCAGGGTC GGAACAGGAG AGCGCACGAG GGAGCTTCCA
+      901 GGGGGAAACG CCTGGTATCT TTATAGTCCT GTCGGGTTTC GCCACCTCTG ACTTGAGCGT
+      961 CGATTTTTGT GATGCTCGTC AGGGGGGCGG AGCCTATGGA AAAACGCCAG CAACGCGGCC
+     1021 TTTTTACGGT TCCTGGCCTT TTGCTGGCCT TTTGCTCATG ATATAATTAA ATTGAAGCTC
+     1081 TAATTTGTGA GTTTAGTATA CATGCATTTA CTTATAATAC AGTTTTTTAG TTTTGCTGGC
+     1141 CGCATCTTCT CAAATATGCT TCCCAGCCTG CTTTTCTGTA ACGTTCACCC TCTACCTTAG
+     1201 CATCCCTTCC CTTTGCAAAT AGTCCTCTTC CAACAATAAT AATGTCAGAT CCTGTAGAGA
+     1261 CCACATCATC CACGGTTCTA TACTGTTGAC CCAATGCGTC TCCCTTGTCA TCTAAACCCA
+     1321 CACCGGGTGT CATAATCAAC CAATCGTAAC CTTCATCTCT TCCACCCATG TCTCTTTGAG
+     1381 CAATAAAGCC GATAACAAAA TCTTTGTCGC TCTTCGCAAT GTCAACAGTA CCCTTAGTAT
+     1441 ATTCTCCAGT AGATAGGGAG CCCTTGCATG ACAATTCTGC TAACATCAAA AGGCCTCTAG
+     1501 GTTCCTTTGT TACTTCTTCT GCCGCCTGCT TCAAACCGCT AACAATACCT GGGCCCACCA
+     1561 CACCGTGTGC ATTCGTAATG TCTGCCCATT CTGCTATTCT GTATACACCC GCAGAGTACT
+     1621 GCAATTTGAC TGTATTACCA ATGTCAGCAA ATTTTCTGTC TTCGAAGAGT AAAAAATTGT
+     1681 ACTTGGCGGA TAATGCCTTT AGCGGCTTAA CTGTGCCCTC CATGGAAAAA TCAGTCAAGA
+     1741 TATCCACATG TGTTTTTAGT AAACAAATTT TGGGACCTAA TGCTTCAACT AACTCCAGTA
+     1801 ATTCCTTGGT GGTACGAACA TCCAATGAAG CACACAAGTT TGTTTGCTTT TCGTGCATGA
+     1861 TATTAAATAG CTTGGCAGCA ACAGGACTAG GATGAGTAGC AGCACGTTCC TTATATGTAG
+     1921 CTTTCGACAT GATTTATCTT CGTTTCCTGC AGGTTTTTGT TCTGTGCAGT TGGGTTAAGA
+     1981 ATACTGGGCA ATTTCATGTT TCTTCAACAC TACATATGCG TATATATACC AATCTAAGTC
+     2041 TGTGCTCCTT CCTTCGTTCT TCCTTCTGTT CGGAGATTAC CGAATCAAAA AAATTTCAAA
+     2101 GAAACCGAAA TCAAAAAAAA GAATAAAAAA AAAATGATGA ATTGAATTGA AAAGCTAGCT
+     2161 TATCGATGAT AAGCTGTCAA AGATGAGAAT TAATTCCACG GACTATAGAC TATACTAGAT
+     2221 ACTCCGTCTA CTGTACGATA CACTTCCGCT CAGGTCCTTG TCCTTTAACG AGGCCTTACC
+     2281 ACTCTTTTGT TACTCTATTG ATCCAGCTCA GCAAAGGCAG TGTGATCTAA GATTCTATCT
+     2341 TCGCGATGTA GTAAAACTAG CTAGACCGAG AAAGAGACTA GAAATGCAAA AGGCACTTCT
+     2401 ACAATGGCTG CCATCATTAT TATCCGATGT GACGCTGCAG CTTCTCAATG ATATTCGAAT
+     2461 ACGCTTTGAG GAGATACAGC CTAATATCCG ACAAACTGTT TTACAGATTT ACGATCGTAC
+     2521 TTGTTACCCA TCATTGAATT TTGAACATCC GAACCTGGGA GTTTTCCCTG AAACAGATAG
+     2581 TATATTTGAA CCTGTATAAT AATATATAGT CTAGCGCTTT ACGGAAGACA ATGTATGTAT
+     2641 TTCGGTTCCT GGAGAAACTA TTGCATCTAT TGCATAGGTA ATCTTGCACG TCGCATCCCC
+     2701 GGTTCATTTT CTGCGTTTCC ATCTTGCACT TCAATAGCAT ATCTTTGTTA ACGAAGCATC
+     2761 TGTGCTTCAT TTTGTAGAAC AAAAATGCAA CGCGAGAGCG CTAATTTTTC AAACAAAGAA
+     2821 TCTGAGCTGC ATTTTTACAG AACAGAAATG CAACGCGAAA GCGCTATTTT ACCAACGAAG
+     2881 AATCTGTGCT TCATTTTTGT AAAACAAAAA TGCAACGCGA CGAGAGCGCT AATTTTTCAA
+     2941 ACAAAGAATC TGAGCTGCAT TTTTACAGAA CAGAAATGCA ACGCGAGAGC GCTATTTTAC
+     3001 CAACAAAGAA TCTATACTTC TTTTTTGTTC TACAAAAATG CATCCCGAGA GCGCTATTTT
+     3061 TCTAACAAAG CATCTTAGAT TACTTTTTTT CTCCTTTGTG CGCTCTATAA TGCAGTCTCT
+     3121 TGATAACTTT TTGCACTGTA GGTCCGTTAA GGTTAGAAGA AGGCTACTTT GGTGTCTATT
+     3181 TTCTCTTCCA TAAAAAAAGC CTGACTCCAC TTCCCGCGTT TACTGATTAC TAGCGAAGCT
+     3241 GCGGGTGCAT TTTTTCAAGA TAAAGGCATC CCCGATTATA TTCTATACCG ATGTGGATTG
+     3301 CGCATACTTT GTGAACAGAA AGTGATAGCG TTGATGATTC TTCATTGGTC AGAAAATTAT
+     3361 GAACGGTTTC TTCTATTTTG TCTCTATATA CTACGTATAG GAAATGTTTA CATTTTCGTA
+     3421 TTGTTTTCGA TTCACTCTAT GAATAGTTCT TACTACAATT TTTTTGTCTA AAGAGTAATA
+     3481 CTAGAGATAA ACATAAAAAA TGTAGAGGTC GAGTTTAGAT GCAAGTTCAA GGAGCGAAAG
+     3541 GTGGATGGGT AGGTTATATA GGGATATAGC ACAGAGATAT ATAGCAAAGA GATACTTTTG
+     3601 AGCAATGTTT GTGGAAGCGG TATTCGCAAT GGGAAGCTCC ACCCCGGTTG ATAATCAGAA
+     3661 AAGCCCCAAA AACAGGAAGA TTGTATAAGC AAATATTTAA ATTGTAATTC TTTCCTGCGT
+     3721 TATCCCCTGA TTCTGTGGAT AACCGTATTA CCGCCTTTGA GTGAGCTGAT ACCGCTCGCC
+     3781 GCAGCCGAAC GACCGAGCGC AGCGAGTCAG TGAGCGAGGA AGCGGAAGAG GGTCTGACGC
+     3841 TCAGTGGAAC GAAAACTCAC GTTAAGGGAT TTTGGTCATG AGATTATCAA AAAGGATCTT
+     3901 CACCTAGATC CTTTTAAATT AAAAATGAAG TTTTAAATCA ATCTAAAGTA TATATGAGTA
+     3961 AACTTGGTCT GACAGTCAGA AGAACTCGTC AAGAAGGCGA TAGAAGGCGA TGCGCTGCGA
+     4021 ATCGGGAGCG GCGATACCGT AAAGCACGAG GAAGCGGTCA GCCCATTCGC CGCCAAGCTC
+     4081 TTCAGCAATA TCACGGGTAG CCAACGCTAT GTCCTGATAG CGGTCCGCCA CACCCAGCCG
+     4141 GCCACAGTCG ATGAATCCAG AAAAGCGGCC ATTTTCCACC ATGATATTCG GCAAGCAGGC
+     4201 ATCGTCATGG GTCACGACGA GATCCTCGCC GTCGGGCATG CTCGCCTTGA GCCTGGCGAA
+     4261 CAGTTCGGCT GGCGCGAGCC CCTGATGCTC TTCGTCCAGA TCATCCTGAT CGACAAGACC
+     4321 GGCTTCCATC CGAGTACGTG CTCGCTCGAT GCGATGTTTC GCTTGGTGGT CGAATGGGCA
+     4381 GGTAGCCGGA TCAAGCGTAT GCAGCCGCCG CATTGCATCA GCCATGATGG ATACTTTCTC
+     4441 GGCAGGAGCA AGGTGAGATG ACAGGAGATC CTGCCCCGGC ACTTCGCCCA ATAGCAGCCA
+     4501 GTCCCTTCCC GCTTCAGTGA CAACGTCGAG CACAGCTGCG CAAGGAACGC CCGTCGTGGC
+     4561 CAGCCACGAT AGCCGCGCTG CCTCGTCTTG CAGTTCATTC AGGGCACCGG ACAGGTCGGT
+     4621 CTTGACAAAA AGAACCGGGC GCCCCTGCGC TGACAGCCGG AACACGGCGG CATCAGAGCA
+     4681 GCCGATTGTC TGTTGTGCCC AGTCATAGCC GAATAGCCTC TCCACCCAAG CGGCCGGAGA
+     4741 ACCTGCGTGC AATCCATCTT GTTCAATCAT ACTCTTCCTT TTTCAATATT ATTGAAGCAT
+     4801 TTATCAGGGT TATTGTCTCA TGAGCGGATA CATATTTGAA TGTATTTAGA AAAATAAACA
+     4861 AATAGGGGTT CCGCGCACAT TTCCCCGAAA AGTGCCACCT GACGTCGGAC GGATCGCTTG
+     4921 CCTGTAACTT ACACGCGCCT CGTGGCGCGC CCCTGCAGGA TTTAAATGGC CGGCCGTTTA
+     4981 AACATTTATC GGAGAAAACC TCGTCGTTGA ACCAGATTT
+//

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- /*
+AssemblX: A three step assembly process for up to 25 genes
+
+To express large sets of proteins in yeast or other host organisms, we
+have developed a cloning framework which allows the modular cloning of
+up to 25 genes into one circular artificial yeast chromosome.
+	
+AssemblXWeb assists the user with all design and assembly 
+steps and therefore greatly reduces the time required to complete complex 
+assemblies.
+	
+Copyright (C) 2016,  gremmels(at)mpimp-golm.mpg.de
+
+AssemblXWeb is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+Contributors:
+gremmels(at)mpimp-golm.mpg.de - initial API and implementation
+*/ -->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<package name="assemblx_web" extends="tiles-default">
+		<result-types>
+			<result-type name="tiles"
+				class="org.apache.struts2.views.tiles.TilesResult" default="false" />
+		</result-types>
+		<interceptors>
+			<interceptor name="modelToSession"
+				class="mpimp.assemblxweb.util.ModelToSessionInterceptor"></interceptor>
+			<interceptor name="prepare"
+				class="mpimp.assemblxweb.util.PrepareInterceptorAssemblX"></interceptor>
+			<interceptor-stack name="assemblxWebStack">
+				<interceptor-ref name="exception" />
+				<interceptor-ref name="alias" />
+				<interceptor-ref name="servletConfig" />
+				<interceptor-ref name="prepare" />
+				<interceptor-ref name="i18n" />
+				<interceptor-ref name="chain" />
+				<interceptor-ref name="debugging" />
+				<interceptor-ref name="profiling" />
+				<interceptor-ref name="modelToSession" />
+				<interceptor-ref name="modelDriven" />
+				<interceptor-ref name="fileUpload" />
+				<interceptor-ref name="checkbox" />
+				<interceptor-ref name="staticParams" />
+				<interceptor-ref name="params">
+					<param name="excludeParams">dojo\..*</param>
+				</interceptor-ref>
+				<interceptor-ref name="conversionError" />
+				<interceptor-ref name="validation">
+					<param name="excludeMethods">input,back,cancel,browse</param>
+				</interceptor-ref>
+				<interceptor-ref name="workflow">
+					<param name="excludeMethods">input,back,cancel,browse</param>
+				</interceptor-ref>
+			</interceptor-stack>
+			<interceptor-stack name="longOperationStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="execAndWait" />
+			</interceptor-stack>
+		</interceptors>
+		<global-results>
+			<result name="error">/WEB-INF/jsp/Error.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings>
+		<action name="AssemblXWebIntroAction" class="mpimp.assemblxweb.actions.AssemblXWebIntroAction">
+			<interceptor-ref name="assemblxWebStack">
+				<param name="modelToSession.scope">session</param>
+				<param name="modelToSession.name">assemblXWebModel</param>
+				<param name="modelToSession.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+				<param name="prepare.scope">session</param>
+				<param name="prepare.name">assemblXWebModel</param>
+				<param name="prepare.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+			</interceptor-ref>
+			<result type="tiles" name="input">AssemblXWebIntro</result>
+			<result type="tiles" name="login">AssemblXWebLogin</result>
+		</action>
+		<action name="AssemblXWebLoginAction" class="mpimp.assemblxweb.actions.AssemblXWebLoginAction">
+			<interceptor-ref name="assemblxWebStack">
+				<param name="modelToSession.scope">session</param>
+				<param name="modelToSession.name">assemblXWebModel</param>
+				<param name="modelToSession.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+				<param name="prepare.scope">session</param>
+				<param name="prepare.name">assemblXWebModel</param>
+				<param name="prepare.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+			</interceptor-ref>
+			<result type="tiles" name="success">AssemblXWebHome</result>
+			<result type="tiles" name="input">AssemblXWebLogin</result>
+			<result name="home">/index.jsp</result>
+		</action>
+		<action name="AssemblXWebAction" class="mpimp.assemblxweb.actions.AssemblXWebAction">
+			<interceptor-ref name="defaultStack">
+				<param name="scopedModelDriven.scope">session</param>
+				<param name="scopedModelDriven.name">assemblXWebModel</param>
+				<param name="scopedModelDriven.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+			</interceptor-ref>
+			<result type="tiles" name="success">AssemblXWebHome</result>
+			<result type="tiles" name="input">AssemblXWebHome</result>
+			<result type="tiles" name="editTU">EditTU</result>
+			<result type="tiles" name="logout">AssemblXWebLogin</result>
+			<result type="tiles" name="help">AssemblXWebHelp</result>
+		</action>
+		<action name="ProcessAssemblyAction" class="mpimp.assemblxweb.actions.ProcessAssemblyAction">
+			<interceptor-ref name="longOperationStack">
+				<param name="scopedModelDriven.scope">session</param>
+				<param name="scopedModelDriven.name">assemblXWebModel</param>
+				<param name="scopedModelDriven.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+			</interceptor-ref>
+			<result type="tiles" name="success">AssemblXWebHome</result>
+			<result type="tiles" name="input">AssemblXWebHome</result>
+			<result type="tiles" name="wait">PleaseWait</result>
+			<result type="tiles" name="logout">AssemblXWebLogin</result>
+			<result type="tiles" name="help">AssemblXWebHelp</result>
+		</action>
+		<action name="EditTUAction" class="mpimp.assemblxweb.actions.EditTUAction">
+			<interceptor-ref name="defaultStack">
+				<param name="scopedModelDriven.scope">session</param>
+				<param name="scopedModelDriven.name">assemblXWebModel</param>
+				<param name="scopedModelDriven.className">mpimp.assemblxweb.db.AssemblXWebModel</param>
+			</interceptor-ref>
+			<result type="tiles" name="success">AssemblXWebHome</result>
+			<result type="tiles" name="input">EditTU</result>
+			<result type="tiles" name="logout">AssemblXWebLogin</result>
+			<result type="tiles" name="help">AssemblXWebHelp</result>
+		</action>
+	</package>
+</struts>    

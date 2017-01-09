@@ -1,0 +1,323 @@
+@CHARSET "ISO-8859-1";
+
+/*
+AssemblX: A three step assembly process for up to 25 genes
+
+To express large sets of proteins in yeast or other host organisms, we
+have developed a cloning framework which allows the modular cloning of
+up to 25 genes into one circular artificial yeast chromosome.
+	
+AssemblXWeb assists the user with all design and assembly 
+steps and therefore greatly reduces the time required to complete complex 
+assemblies.
+	
+Copyright (C) 2016,  gremmels(at)mpimp-golm.mpg.de
+
+AssemblXWeb is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+Contributors:
+gremmels(at)mpimp-golm.mpg.de - initial API and implementation
+*/
+
+body {
+	min-width: 2000px;
+}
+
+header {
+	background-color: transparent;
+	/*height: 60px;*/
+	font-family: verdana, arial, sans-serif;
+	text-align: center;
+}
+
+main {
+	min-height: 700px;
+	padding: 10px;
+	background-color: #fff;
+	overflow: auto;
+	float: left;
+	border-left: 1px dotted #3D907B;
+	font-family: verdana, arial, sans-serif;
+	font-size: small;
+}
+
+aside {
+	text-align: center;
+	/*width: 220px;*/
+	height: 230px;
+	float: left;
+	background-color: white;
+	font-family: verdana, arial, sans-serif;
+}
+
+button#intro {
+	background-color: #0e7880;
+	color: white;
+	height: 3em;
+	font-size: larger;
+}
+
+section#firstPageAll {
+	
+}
+
+section#intro {
+	width: 50em;
+	float: left;
+	padding: 10px;
+}
+
+section#advantages {
+	width: 20em;
+	float: right;
+	padding: 10px;
+	text-align: right;
+}
+
+section#promLib {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#promLIbDiagramText {
+	font-size: smaller;
+}
+
+section#questionsbefore {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#testimonials {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#FAQs {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#manual {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#schemaOverview {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#5partsAssembly {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#8partsAssembly {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#15partsAssembly {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#algorithm {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#downloadSeqFiles {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#pleaseCite {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+section#video {
+	width: 70em;
+	float: left;
+	padding: 10px;
+}
+
+li#FAQ {
+	margin-bottom: 10px;
+}
+
+li#QuestionsBefore {
+	margin-bottom: 10px;
+}
+
+li#Testimonials {
+	margin-bottom: 10px;
+}
+
+li#SeqFiles {
+	margin-bottom: 10px;
+}
+
+img#workflow {
+	padding: 10px;
+	width: 550px;
+	height: 445px;
+}
+
+nav {
+	min-height: 500px;
+	float: right;
+}
+
+nav li {
+	list-style: none;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div#references {
+	font-size: small;
+}
+
+div#showAlgorithm {
+	margin-top: 10px;
+	background-color: #E1E1E1;
+}
+
+div#help1 {
+	background-color: #E1E1E1;
+}
+
+div#help2 {
+	background-color: #E1E1E1;
+}
+
+div#help3 {
+	background-color: #E1E1E1;
+}
+
+div.mpimp_logo {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.minerva {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.uni-potsdam {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.j5 {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.cell2fab {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.bmbf-logo {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.impressum {
+	font-size: small;
+}
+
+div.version {
+	font-size: small;
+}
+
+div.page {
+	min-width: 1200px;
+}
+
+div.help {
+	width: 1000px;
+	background-color: #E1E1E1;
+}
+
+td.bold {
+	font-weight: bold;
+}
+
+td.light_grey {
+	background-color: #E1E1E1;
+}
+
+td.very_light_grey {
+	background-color: #F3F3F3;
+}
+
+td.edit_mode {
+	font-weight: bold;
+}
+
+td.narrow_text {
+	width: 300px;
+}
+
+td.small_text {
+	font-size: small;
+}
+
+.noteForTestUser {
+	color: red;
+	font-weight: bold;
+	background-color: #E1E1E1;
+}
+
+.errorText {
+	color: red;
+	font-weight: bold;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- /*
+AssemblX: A three step assembly process for up to 25 genes
+
+To express large sets of proteins in yeast or other host organisms, we
+have developed a cloning framework which allows the modular cloning of
+up to 25 genes into one circular artificial yeast chromosome.
+	
+AssemblXWeb assists the user with all design and assembly 
+steps and therefore greatly reduces the time required to complete complex 
+assemblies.
+	
+Copyright (C) 2016,  gremmels(at)mpimp-golm.mpg.de
+
+AssemblXWeb is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+Contributors:
+gremmels(at)mpimp-golm.mpg.de - initial API and implementation
+*/ -->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+<entry key="workingDirectory">WorkingDirectory</entry>
+<entry key="resultDirectory">Results</entry>
+<entry key="downloadTempDirBaseName">downloads</entry>
+<entry key="masterFilesDirectory">master_files</entry>
+<entry key="level_1_sequenceDirectory">level_1_sequences</entry>
+<entry key="sequenceFileDirectory">sequences</entry>
+<entry key="parameterFileDirectory">parameterfiles</entry>
+<entry key="j5ParametersFileName">j5parameters.csv</entry>
+<entry key="zippedSequencesFileName">sequences.zip</entry>
+<entry key="sequencesListFileName">sequenceslist.csv</entry>
+<entry key="partsListFileName">partslist.csv</entry>
+<entry key="targetPartsOrderListFileName">targetpartsorderlist.csv</entry>
+<entry key="masterPlasmidsListFileName">masterplasmids.csv</entry>
+<entry key="masterOligosListFileName">masteroligolist.csv</entry>
+<entry key="masterDirectSynthesisListFileName">masterdirectsynthesislist.csv</entry>
+<entry key="eugeneRulesListFileName">eugeneruleslist.eug</entry>
+<entry key="pathToLevel_0_vectorDirectory">linearisierteVektoren/Level_0</entry>
+<entry key="pathToLevel_1_vectorDirectory">linearisierteVektoren/Level_1_korrigiert</entry>
+<entry key="pathToLevel_2_vectorDirectory">linearisierteVektoren/Level_2</entry>
+<entry key="imgSenseActive">../../images/imgSense.jpg</entry>
+<entry key="imgSenseInactive">../../images/imgSenseInactive.jpg</entry>
+<entry key="imgAntisenseActive">../../images/imgAntisense.jpg</entry>
+<entry key="imgAntisenseInactive">../../images/imgAntisenseInactive.jpg</entry>
+<entry key="imgPromoter">../../images/promoter.jpeg</entry>
+<entry key="imgPromoterReverse">../../images/promoter_reverse.jpg</entry>
+<entry key="imgCodingSequence">../../images/cds.jpeg</entry>
+<entry key="imgCodingSequenceReverse">../../images/cds_reverse.jpg</entry>
+<entry key="imgTag">../../images/imgTag.jpg</entry>
+<entry key="imgTerminator">../../images/terminator.jpeg</entry>
+<entry key="imgBackbone">../../images/imgBackbone.jpg</entry>
+<entry key="imgUserDefined">../../images/user_defined.jpg</entry>
+<entry key="imgOperator">../../images/operator.jpg</entry>
+<entry key="imgInsulator">../../images/insulator.jpg</entry>
+<entry key="imgOriginOfReplication">../../images/origin_of_replication.jpg</entry>
+<entry key="imgRestrictionSite">../../images/restriction_site.jpg</entry>
+<entry key="imgRes">../../images/res.jpg</entry>
+<entry key="imgSignature">../../images/signature.jpg</entry>
+<entry key="imgSignatureReverse">../../images/signature_reverse.jpg</entry>
+<entry key="imgTrafficLightGreen">../../images/Ampel_gruen.png</entry>
+<entry key="imgTrafficLightYellow">../../images/Ampel_gelb.png</entry>
+<entry key="imgTrafficLightRed">../../images/Ampel_rot.png</entry>
+<entry key="imgTrafficLightNoLight">../../images/Ampel_aus.png</entry>
+<entry key="pdfDirName">pdf</entry>
+<entry key="supportProtocolName">SupportProtocol.pdf</entry>
+<entry key="hibernateConnectionUsername">assemblxweb</entry>
+<entry key="databaseServerName">localhost</entry>
+<entry key="databaseName">assemblxdb</entry>
+<entry key="hibernateDialect">org.hibernate.dialect.MySQLInnoDBDialect</entry>
+<entry key="hibernateConnectionProfile">MySQL</entry>
+<entry key="hibernateConnectionPassword">transcript</entry>
+<entry key="hibernateConnectionDriverClass">com.mysql.jdbc.Driver</entry>
+<entry key="hibernateC3POMaxSize">20</entry>
+<entry key="hibernateC3POMinSize">5</entry>
+<entry key="hibernateC3POTimeout">1800</entry>
+<entry key="hibernateC3POMaxStatements">50</entry>
+<entry key="hibernateCurrentSessionContextClass">thread</entry>
+<entry key="hibernateC3POValidate">true</entry>
+<entry key="connectionProviderClass">org.hibernate.connection.C3P0ConnectionProvider</entry>
+<entry key="hibernateC3POPreferredTestQuery">SELECT 1;</entry>
+<entry key="hibernateC3POTestConnectionOnCheckin">true</entry>
+<entry key="hibernateShowSQL">true</entry>
+<entry key="requestJ5AccountURL">https://j5.jbei.org/index.php/Special:RequestAccount</entry>
+<entry key="idLevel1Backbone">level-1-backbone</entry>
+<entry key="idLevel2Backbone">level-2-backbone</entry>
+</properties>

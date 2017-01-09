@@ -1,0 +1,17 @@
+#MyEclipse Hibernate Properties
+#Thu Oct 22 16:06:22 CEST 2015
+genVersionTag=false
+sessionFactoryName=mpimp.assemblxweb.hibernate.HibernateSessionFactory
+genAnnotations=false
+configFile=/AssemblXWeb/src/hibernate.cfg.xml
+reStrategyClass=
+sessionFactoryId=
+profile=
+detectM2M=false
+genBasicCompId=false
+keyGenerator=
+createConfigFile=true
+basePersistenceClass=
+detectO2O=false
+useJavaTypes=true
+reSettingsFile=

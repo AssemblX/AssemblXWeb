@@ -1,0 +1,151 @@
+LOCUS       pj5_00004               2718 bp    dna     circular UNK 11-Aug-2015
+ACCESSION   pj5_00004
+VERSION     pj5_00004.1
+KEYWORDS    ; .
+FEATURES             Location/Qualifiers
+     source          1..151
+                     /mol_type='other DNA'
+                     /label=pYES2/CT
+     Replication_ori  1..75
+                     /translation='MSTVPLVYSPVDREPLHDNSANIKRPLGSFVTSSAACFKPLTIP
+                     GPTTPCAFVMSAHSAILYTPAEYCNLTVLPMSANFLSSKSKKLYLADNAFSGLTVPSM
+                     EKSVKISTCVFSKQILGPNASTNSSNSLVVRTSNEAHKFVCFSCMILNSLAATGLG*'
+                     /label=2micron_origin
+     primer_bind     complement(117..187)
+                     /label=FM_00289_(2_micron_ura3)_reverse
+     Restriction_sit  139..146
+                     /label=SwaI
+                     /note='restriction site'
+     Restriction_sit  142..142
+                     /label=SwaI
+                     /note='restriction site'
+     primer_bind     1389..1486
+                     /label=FM_00306_((A2_NotI)_forward)
+     primer_bind     complement(1389..1486)
+                     /label=FM_00307_((A2_NotI)_reverse)
+     Site            1392..1399
+                     /label=SbfI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1400..1407
+                     /label=SwaI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1408..1415
+                     /label=FseI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1416..1423
+                     /label=PmeI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1424..1424
+                     /label=SmaI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Region          1425..1460
+                     /label=A2
+     primer_bind     1451..1540
+                     /label=FM_00308_((A3)_forward)
+     primer_bind     complement(1451..1540)
+                     /label=FM_00309_((A3)_reverse)
+     Region          1469..1504
+                     /label=synth3
+                     /label=A3
+     Site            1505..1505
+                     /label=SmaI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1506..1513
+                     /label=SwaI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1514..1521
+                     /label=AscI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1522..1529
+                     /label=PmeI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1530..1537
+                     /label=SbfI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     Site            1538..1545
+                     /label=FseI
+                     /site_type='restriction site'
+                     /note='restriction site'
+     source          1546..1714
+                     /mol_type='other DNA'
+                     /label=pUC19
+     rep_origin      1555..1714
+                     /label=pBR322_origin
+     primer          complement(1608..1616)
+                     /label=FM103
+     source          1715..1765
+                     /mol_type='other DNA'
+                     /label=pYES2/CT
+     primer_bind     complement(1731..1801)
+                     /label=FM_00289_(2_micron_ura3)_reverse
+     Restriction_sit  1753..1760
+                     /label=SwaI
+                     /note='restriction site'
+     Restriction_sit  1756..1756
+                     /label=SwaI
+                     /note='restriction site'
+     primer          1766..1774
+                     /label=FM102
+     source          1766..1887
+                     /mol_type='other DNA'
+                     /label=pUC19
+     gene            complement(2035..2715)
+                     /label=Kana
+ORIGIN      
+        1 tatagggata tagcacagag atatatagca aagagatact tttgagcaat gtttgtggaa
+       61 gcggtattcg caatgggaag ctccaccccg gttgataatc agaaaagccc caaaaacagg
+      121 aagattgtat aagcaaatat ttaaattgta attctttcct gcgttatccc ctgattctgt
+      181 ggataaccgt attaccgcct ttgagtgagc tgataccgct cgccgcagcc gaacgaccga
+      241 gcgcagcgag tcagtgagcg aggaagcgga agagggtctg acgctcagtg gaacgaaaac
+      301 tcacgttaag ggattttggt catgagatta tcaaaaagga tcttcaccta gatcctttta
+      361 aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg gtctgacagt
+      421 cagaagaact cgtcaagaag gcgatagaag gcgatgcgct gcgaatcggg agcggcgata
+      481 ccgtaaagca cgaggaagcg gtcagcccat tcgccgccaa gctcttcagc aatatcacgg
+      541 gtagccaacg ctatgtcctg atagcggtcc gccacaccca gccggccaca gtcgatgaat
+      601 ccagaaaagc ggccattttc caccatgata ttcggcaagc aggcatcgtc atgggtcacg
+      661 acgagatcct cgccgtcggg catgctcgcc ttgagcctgg cgaacagttc ggctggcgcg
+      721 agcccctgat gctcttcgtc cagatcatcc tgatcgacaa gaccggcttc catccgagta
+      781 cgtgctcgct cgatgcgatg tttcgcttgg tggtcgaatg ggcaggtagc cggatcaagc
+      841 gtatgcagcc gccgcattgc atcagccatg atggatactt tctcggcagg agcaaggtga
+      901 gatgacagga gatcctgccc cggcacttcg cccaatagca gccagtccct tcccgcttca
+      961 gtgacaacgt cgagcacagc tgcgcaagga acgcccgtcg tggccagcca cgatagccgc
+     1021 gctgcctcgt cttgcagttc attcagggca ccggacaggt cggtcttgac aaaaagaacc
+     1081 gggcgcccct gcgctgacag ccggaacacg gcggcatcag agcagccgat tgtctgttgt
+     1141 gcccagtcat agccgaatag cctctccacc caagcggccg gagaacctgc gtgcaatcca
+     1201 tcttgttcaa tcatactctt cctttttcaa tattattgaa gcatttatca gggttattgt
+     1261 ctcatgagcg gatacatatt tgaatgtatt tagaaaaata aacaaatagg ggttccgcgc
+     1321 acatttcccc gaaaagtgcc acctgcggac ggatcgcttg cctgtaactt acacgcgcct
+     1381 cgtggcgcgc ccctgcagga tttaaatggc cggccgttta aacccgctgt tttcgaaatt
+     1441 accctttaag cgcgggtatt gcggccgcga accaggctta tgcccagcat cgttgcaagc
+     1501 agacgattta aatggcgcgc cgtttaaacc ctgcaggggc cggccccgta gaaaagatca
+     1561 aaggatcttc ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac
+     1621 caccgctacc agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg
+     1681 taactggctt cagcagagcg cagataccaa atacagaaaa gccccaaaaa caggaagatt
+     1741 gtataagcaa atatttaaat tgtaattctt tcctgcgtta tcccctgatt ctgtggataa
+     1801 ccgtattacc gcctttgagt gagctgatac cgctcgccgc agccgaacga ccgagcgcag
+     1861 cgagtcagtg agcgaggaag cggaagaggg tctgacgctc agtggaacga aaactcacgt
+     1921 taagggattt tggtcatgag attatcaaaa aggatcttca cctagatcct tttaaattaa
+     1981 aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa cttggtctga cagtcagaag
+     2041 aactcgtcaa gaaggcgata gaaggcgatg cgctgcgaat cgggagcggc gataccgtaa
+     2101 agcacgagga agcggtcagc ccattcgccg ccaagctctt cagcaatatc acgggtagcc
+     2161 aacgctatgt cctgatagcg gtccgccaca cccagccggc cacagtcgat gaatccagaa
+     2221 aagcggccat tttccaccat gatattcggc aagcaggcat cgtcatgggt cacgacgaga
+     2281 tcctcgccgt cgggcatgct cgccttgagc ctggcgaaca gttcggctgg cgcgagcccc
+     2341 tgatgctctt cgtccagatc atcctgatcg acaagaccgg cttccatccg agtacgtgct
+     2401 cgctcgatgc gatgtttcgc ttggtggtcg aatgggcagg tagccggatc aagcgtatgc
+     2461 agccgccgca ttgcatcagc catgatggat actttctcgg caggagcaag gtgagatgac
+     2521 aggagatcct gccccggcac ttcgcccaat agcagccagt cccttcccgc ttcagtgaca
+     2581 acgtcgagca cagctgcgca aggaacgccc gtcgtggcca gccacgatag ccgcgctgcc
+     2641 tcgtcttgca gttcattcag ggcaccggac aggtcggtct tgacaaaaag aaccgggcgc
+     2701 ccctgcgctg acagctga
+//
