@@ -90,6 +90,12 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 		<div class="impressum">
 			<tiles:insertAttribute name="impressum" />
 		</div>
+		<div class="privacyPolicy">
+			<tiles:insertAttribute name="privacyPolicy" />
+		</div>
+		<div class="disclaimer">
+			<tiles:insertAttribute name="disclaimer" />
+		</div>
 		<div class="contact">
 			<tiles:insertAttribute name="contact" />
 		</div>

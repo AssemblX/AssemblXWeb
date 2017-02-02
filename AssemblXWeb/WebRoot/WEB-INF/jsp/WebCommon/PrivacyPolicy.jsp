@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <!-- /*
 AssemblX: A three step assembly process for up to 25 genes
 
@@ -30,23 +27,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 Contributors:
 gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 */ -->
-<title>8_PartsAssembly.html</title>
-
-<meta name="keywords" content="keyword1,keyword2,keyword3">
-<meta name="description" content="this is my page">
-<meta name="content-type" content="text/html; charset=ISO-8859-1">
-
-<link rel="stylesheet" type="text/css" href="../../css/AssemblXWeb.css">
-
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 </head>
 
 <body>
-	<section id="schemaOverview">
-		<h2>Overview scheme</h2>
-		<img alt="overview scheme" src="../../images/OverviewScheme.png">
-	</section>
-	
-	<a href="http://www.mpimp-golm.mpg.de/2278/impress" target="_blank">Impressum</a>, <a href="http://www.mpimp-golm.mpg.de/2042773/Privacy-Policy" target="_blank">Privacy policy</a>
-	
+	<a href="http://www.mpimp-golm.mpg.de/2042773/Privacy-Policy" target="_blank">Privacy policy</a>
 </body>
 </html>

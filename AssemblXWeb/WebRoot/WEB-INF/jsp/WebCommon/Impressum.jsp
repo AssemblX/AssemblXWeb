@@ -36,6 +36,6 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 </head>
 
 <body>
-	<a href="http://www.mpimp-golm.mpg.de/impressum" target="_blank">Impressum</a>
+	<a href="http://www.mpimp-golm.mpg.de/2278/impress" target="_blank">Impressum</a>
 </body>
 </html>
