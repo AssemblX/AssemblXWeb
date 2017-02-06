@@ -32,7 +32,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 <section id="pleaseCite">Please cite our publication when
 	using AssemblX: Hochrein, L, Machens, F, Gremmels, J, Schulz, K,
 	Messerschmidt, K, Mueller-Roeber, B. AssemblX: A user-friendly toolkit
-	for rapid and reliable multi-gene assemblies. Manuscript in
-	preparation.</section>
+	for rapid and reliable multi-gene assemblies. Nucleic Acids Research,
+	Jan 2017. DOI: 10.1093/nar/gkx034</section>
 
 <s:include value="Navigation.jsp" />
