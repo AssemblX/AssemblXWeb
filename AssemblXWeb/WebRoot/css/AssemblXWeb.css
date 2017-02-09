@@ -299,6 +299,11 @@ div.help {
 	background-color: #E1E1E1;
 }
 
+div.disclaimerText {
+	width: 1000px;
+	background-color: #E1E1E1;
+}
+
 td.bold {
 	font-weight: bold;
 }
