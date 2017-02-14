@@ -32,9 +32,9 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 <html>
 <head>
 <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1" />
-<link rel="stylesheet" type="text/css" href="../css/AssemblXWeb.css" />
-<!-- <link rel="stylesheet" type="text/css"
-	href="/AssemblXWeb/css/AssemblXWeb.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="../css/AssemblXWeb.css" /> -->
+<link rel="stylesheet" type="text/css"
+	href="/AssemblXWeb/css/AssemblXWeb.css" />
 <title><tiles:insertAttribute name="title" /></title>
 
 <!-- Piwik -->

@@ -286,7 +286,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 									<td colspan="2"><s:checkbox
 											name="currentTuUnit.editingFinished"
 											onchange="triggerChanges()" /> <s:text
-											name="Editing finished (uncheck if you want to edit again)." /></td>
+											name="label.editingFinished" /></td>
 								</tr>
 							</table>
 						</td>

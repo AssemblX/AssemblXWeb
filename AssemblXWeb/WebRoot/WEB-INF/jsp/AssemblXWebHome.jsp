@@ -67,8 +67,8 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 				<table>
 					<tr>
 						<td colspan="5" class="light_grey"><nobr>
-								<s:text name="Current user:" />
-								<s:text name="operator.login" />
+								<s:text name="label.currentUser" />
+								<s:property value="operator.login" />
 								<s:submit type="button" value="goToLogin" name="buttonName">
 									<s:text name="label.logout" />
 								</s:submit>

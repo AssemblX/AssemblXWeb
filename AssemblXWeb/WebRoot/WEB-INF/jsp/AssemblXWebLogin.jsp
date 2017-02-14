@@ -35,43 +35,53 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1" />
 </head>
 <body>
+	<script type="text/javascript">
+		function triggerChanges() {
+			AssemblXWebLoginAction.submit();
+		}
+	</script>
 	<s:form action="AssemblXWebLoginAction" theme="simple">
 		<table>
-				<tr>
-					<td colspan="3"><s:text name="AssemblX Login" /></td>
-				</tr>
-				<tr>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td>User name</td>
-					<td><s:textfield name="operator.login" /></td>
-					<td><s:fielderror fieldName="Username" cssClass="errorText" />
-				</tr>
-				<tr>
-					<td>Password</td>
-					<td><s:password name="operator.password" /></td>
-					<td><s:fielderror fieldName="Password" cssClass="errorText" /></td>
-				</tr>
-				<tr>
-					<td colspan="3"><s:actionerror cssClass="errorText" /></td>
-				</tr>
-				<tr>
-					<td>&nbsp;</td>
-					<td><s:submit type="button" value="login" name="buttonName">
-							<s:text name="Login" />
-						</s:submit> <s:submit type="button" value="test" name="buttonName"
-							title="Click here to try out the user interface. You will not be able to submit any job.">
-							<s:text name="Test without Login" />
-						</s:submit></td>
-				</tr>
-				<tr>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><s:submit type="button" value="home" name="buttonName">Home</s:submit>
-					</td>
-				</tr>
+			<tr>
+				<td colspan="3"><s:text name="label.assemblxLogin" /></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td><s:text name="label.userName" /></td>
+				<td><s:textfield name="operator.login" /></td>
+				<td><s:fielderror fieldName="Username" cssClass="errorText" />
+			</tr>
+			<tr>
+				<td><s:text name="label.password" /></td>
+				<td><s:password name="operator.password" /></td>
+				<td><s:fielderror fieldName="Password" cssClass="errorText" /></td>
+			</tr>
+			<tr>
+				<td colspan="3"><s:actionerror cssClass="errorText" /></td>
+			</tr>
+			<tr>
+				<td><s:checkbox name="hasReadDisclaimer" onchange="triggerChanges()"/>
+					<s:text name="label.haveReadDisclaimer" /><a
+					href="../html/Disclaimer.html" target="_blank"><s:text name="label.disclaimer" /></a></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><s:submit type="button" value="login" name="buttonName" disabled="hasReadDisclaimer == false">
+						<s:text name="label.login" />
+					</s:submit> <s:submit type="button" value="test" name="buttonName"
+						title="Click here to try out the user interface. You will not be able to submit any job.">
+						<s:text name="label.testWithoutLogin" />
+					</s:submit></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td><s:submit type="button" value="home" name="buttonName"><s:text name="label.home" /></s:submit>
+				</td>
+			</tr>
 		</table>
 	</s:form>
 </body>

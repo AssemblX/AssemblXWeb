@@ -236,14 +236,6 @@ public class AssemblXWebModel {
 		noOfProcessedTUs_ = noOfProcessedTUs;
 	}
 
-//	public List<String> getMasterPlasmidList() {
-//		return masterPlasmidList_;
-//	}
-//
-//	public void setMasterPlasmidList(List<String> masterPlasmidList) {
-//		masterPlasmidList_ = masterPlasmidList;
-//	}
-
 	public String getHost() {
 		return host_;
 	}
@@ -329,6 +321,14 @@ public class AssemblXWebModel {
 		showHelpTextEditModule_ = showHelpTextEditModule;
 	}
 
+	public Boolean getHasReadDisclaimer() {
+		return hasReadDisclaimer_;
+	}
+
+	public void setHasReadDisclaimer(Boolean hasReadDisclaimer) {
+		hasReadDisclaimer_ = hasReadDisclaimer;
+	}
+
 	private Boolean enterJ5AccountCredentials_ = false;
 	
 	// j5 credentials - hardcoded strings will be removed as soon as the user handling has been implemented
@@ -380,6 +380,8 @@ public class AssemblXWebModel {
 	private String helpAction_;
 	private Boolean showHelpTextOverview_ = true;
 	private Boolean showHelpTextEditModule_ = true;
+	
+	private Boolean hasReadDisclaimer_ = false;
 	
 	private AssemblXWebEnumTranslator assemblXWebEnumTranslator_;
 }
