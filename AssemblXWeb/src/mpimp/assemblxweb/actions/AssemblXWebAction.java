@@ -175,6 +175,7 @@ public class AssemblXWebAction extends AbstractAssemblXAction implements ScopedM
 
 	private String logout() {
 		assemblXWebModel_.setOperator(new OperatorRecord());
+		assemblXWebModel_.setHasReadDisclaimer(false);
 		if (session_.containsKey("assemblXWebModel")) {
 			session_.remove("assemblXWebModel");
 			assemblXWebModel_ = null;

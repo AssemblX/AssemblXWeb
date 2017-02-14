@@ -30,5 +30,6 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 <%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
-<a href="http://www.uni-potsdam.de/cell2fab/m/assemblx.html" target="_blank"> <img
-		src="../../images/AssemblXLogo_Text.png" alt="AssemblX" align="top" border="0"/> </a>
+<a> <img src="../../images/AssemblXLogo_Text.png" alt="AssemblX"
+	align="top" border="0" />
+</a>
