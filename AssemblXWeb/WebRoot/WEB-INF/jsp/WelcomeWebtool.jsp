@@ -138,14 +138,15 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 						assembly steps. Finally, a complete benchtop protocol for cloning
 						of the desired multi-gene construct is returned, together with
 						reference sequences for all assembled products. <a
-							href="https://github.com/AssemblX/AssemblXWeb"
-							target="_blank">AssemblX web tool at GitHub</a>
+							href="https://github.com/AssemblX/AssemblXWeb" target="_blank">AssemblX
+							web tool at GitHub</a>
 						<div id="references">
 							<ol>
 								<li>AssemblX: A user-friendly toolkit for rapid and
 									reliable multi-gene assemblies. Lena Hochrein, Fabian Machens,
 									Juergen Gremmels, Karina Schulz, Katrin Messerschmidt and Bernd
-									Mueller-Roeber. Manuscript submitted.</li>
+									Mueller-Roeber. Nucleic Acids Research, Jan 2017. DOI:
+									10.1093/nar/gkx034.</li>
 								<li>j5 DNA assembly design automation. Nathan Hilson.
 									Methods Mol Biol. 2014;1116:245-69</li>
 							</ol>
