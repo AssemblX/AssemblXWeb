@@ -34,13 +34,15 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 	<h3>A three step assembly process for up to 25 genes</h3>
 	To express large sets of proteins in yeast or other host organisms, we
 	have developed a cloning framework which allows the modular cloning of
-	up to 25 genes into one circular artificial yeast chromosome. <img
-		alt="AssemblXWorkflow" src="../../images/WorkflowScheme.png"
+	up to 25 genes into one circular artificial yeast chromosome.
+	 <img
+		alt="AssemblXWorkflow"  src="../../images/WorkflowScheme.png"
 		id="workflow">
-	<iframe
+<iframe
         style="border: 0; height: 90px; width: 600px;"
         src="https://piwik.mpg.de/piwik/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily="
         ></iframe>
+<nobr>(see also <a href="http://www.mpimp-golm.mpg.de/2042773/Privacy-Policy" target="_blank">Privacy policy, section C.2</a>)</nobr>
 </section>
 <s:include value="Navigation.jsp" />
 <section id="advantages">
