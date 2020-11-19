@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project adv-config="true">
   <disabled-container path="com.genuitec.runtime.library/com.genuitec.struts_2.1"/>
-  <container path="com.genuitec.runtime.library/com.genuitec.hibernate_4.1">
-    <jar-attrs id="data/4.1/lib/core/hibernate-core-4.1.4.Final.jar">
-      <attribute name="source-path" value="F:\Software-Installer\Hibernate\hibernate-release-4.1.4.Final.zip"/>
-      <attribute name="source-path-root"/>
-      <attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/orm/4.1/javadocs/"/>
-    </jar-attrs>
-  </container>
   <container path="com.genuitec.runtime.library/com.genuitec.struts_2.1">
     <disable name="Program Files " type="custom_jar"/>
     <custom-jar path="lib/AssemblXWeb/WebRoot/WEB-INF/struts_libs/spring-test-3.0.5.RELEASE.jar"/>

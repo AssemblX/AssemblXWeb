@@ -39,7 +39,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 				<ol>
 					<li id="QuestionsBefore">How many Level 0 units (e.g. genes)
 						do you want to assemble? This determines the number of Level 1
-						modules. <s:url action="AssemblXWebIntroAction" id="help1url">
+						modules. <s:url action="AssemblXWebIntroAction" var="help1url">
 							<s:param name="buttonName">help_1</s:param>
 						</s:url> <s:a href="%{help1url}">(read more...)</s:a> <s:if
 							test="help_1 == true">
@@ -58,7 +58,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 									<li><a href="../../html/15_PartsAssembly.html"
 										target="blank_">15-parts assembly</a></li>
 								</ul>
-								<s:url action="AssemblXWebIntroAction" id="help1urlHide">
+								<s:url action="AssemblXWebIntroAction" var="help1urlHide">
 									<s:param name="buttonName">help_1_hide</s:param>
 								</s:url>
 								<s:a href="%{help1urlHide}">(hide)</s:a>
@@ -68,7 +68,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 
 					<li id="QuestionsBefore">Do you plan to modify or shuffle one
 						or more assembly unit(s) at later timepoints?<s:url
-							action="AssemblXWebIntroAction" id="help2url">
+							action="AssemblXWebIntroAction" var="help2url">
 							<s:param name="buttonName">help_2</s:param>
 						</s:url> <s:a href="%{help2url}">(read more...)</s:a> <s:if
 							test="help_2 == true">
@@ -80,7 +80,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 								single Level 1 module. This allows it to modify only one module,
 								while all other Level 1 modules will remain constant throughout
 								all subsequent experiments.
-								<s:url action="AssemblXWebIntroAction" id="help2urlHide">
+								<s:url action="AssemblXWebIntroAction" var="help2urlHide">
 									<s:param name="buttonName">help_2_hide</s:param>
 								</s:url>
 								<s:a href="%{help2urlHide}">(hide)</s:a>
@@ -90,7 +90,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 
 					<li id="QuestionsBefore">Which organism is your host organism
 						for expression? Is there a need to subclone the final expression
-						vector?<s:url action="AssemblXWebIntroAction" id="help3url">
+						vector?<s:url action="AssemblXWebIntroAction" var="help3url">
 							<s:param name="buttonName">help_3</s:param>
 						</s:url> <s:a href="%{help3url}">(read more...)</s:a> <s:if
 							test="help_3 == true">
@@ -100,7 +100,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 								you are intending to express your final construct in a different
 								host, you will receive a support protocol with instructions for
 								a one-step modification of your host vector of choice.
-								<s:url action="AssemblXWebIntroAction" id="help3urlHide">
+								<s:url action="AssemblXWebIntroAction" var="help3urlHide">
 									<s:param name="buttonName">help_3_hide</s:param>
 								</s:url>
 								<s:a href="%{help3urlHide}">(hide)</s:a>
@@ -118,7 +118,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 				target="_blank">video</a>. Otherwise, please read the supporting
 				information provided with every step in the workflow. More
 				information about the algorithms behind the AssemblX web tool can be
-				found <s:url action="AssemblXWebIntroAction" id="showAlgorithmUrl">
+				found <s:url action="AssemblXWebIntroAction" var="showAlgorithmUrl">
 					<s:param name="buttonName">showAlgorithm</s:param>
 				</s:url> <s:a href="%{showAlgorithmUrl}">here</s:a> . <s:if
 					test="showAlgorithm == true">
@@ -151,7 +151,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 									Methods Mol Biol. 2014;1116:245-69</li>
 							</ol>
 						</div>
-						<s:url action="AssemblXWebIntroAction" id="hideAlgorithmUrl">
+						<s:url action="AssemblXWebIntroAction" var="hideAlgorithmUrl">
 							<s:param name="buttonName">hideAlgorithm</s:param>
 						</s:url>
 						<s:a href="%{hideAlgorithmUrl}">(hide)</s:a>

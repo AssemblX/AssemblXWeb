@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- /*
+AssemblX: A three step assembly process for up to 25 genes
+
+To express large sets of proteins in yeast or other host organisms, we
+have developed a cloning framework which allows the modular cloning of
+up to 25 genes into one circular artificial yeast chromosome.
+	
+AssemblXWeb assists the user with all design and assembly 
+steps and therefore greatly reduces the time required to complete complex 
+assemblies.
+	
+Copyright (C) 2016,  gremmels(at)mpimp-golm.mpg.de
+
+AssemblXWeb is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+Contributors:
+gremmels(at)mpimp-golm.mpg.de - initial API and implementation
+*/ -->
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/jsp/layouts/base.jsp">
+		<put-attribute name="title" value="AssemblX-Web" />
+		<put-attribute name="header"
+			value="/WEB-INF/jsp/WebCommon/AssemblXWebHeader.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/AssemblXWebIntro.jsp" />
+		<put-attribute name="impressum"
+			value="/WEB-INF/jsp/WebCommon/Impressum.jsp" />
+		<put-attribute name="privacyPolicy"
+			value="/WEB-INF/jsp/WebCommon/PrivacyPolicy.jsp" />
+		<put-attribute name="minerva" value="/WEB-INF/jsp/WebCommon/Minerva.jsp" />
+		<put-attribute name="disclaimer"
+			value="/WEB-INF/jsp/WebCommon/Disclaimer.jsp" />
+		<put-attribute name="minerva" value="/WEB-INF/jsp/WebCommon/Minerva.jsp" />
+		<put-attribute name="mpimp-logo"
+			value="/WEB-INF/jsp/WebCommon/MPIMPLogo.jsp" />
+		<put-attribute name="j5" value="/WEB-INF/jsp/WebCommon/J5.jsp" />
+		<put-attribute name="uni-potsdam" value="/WEB-INF/jsp/WebCommon/UP.jsp" />
+		<put-attribute name="contact" value="/WEB-INF/jsp/WebCommon/Contact.jsp" />
+		<put-attribute name="cell2fab-logo"
+			value="/WEB-INF/jsp/WebCommon/Cell2FabLogo.jsp" />
+		<put-attribute name="bmbfLogo"
+			value="/WEB-INF/jsp/WebCommon/BMBFLogo.jsp" />
+	</definition>
+
+	<definition name="AssemblXWebIntro" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/AssemblXWebIntro.jsp" />
+	</definition>
+
+	<definition name="AssemblXWebLogin" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/AssemblXWebLogin.jsp" />
+	</definition>
+
+	<definition name="AssemblXWebHome" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/AssemblXWebHome.jsp" />
+	</definition>
+
+	<definition name="EditTU" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/EditTU.jsp" />
+	</definition>
+
+	<definition name="PleaseWait" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/PleaseWait.jsp" />
+	</definition>
+
+</tiles-definitions>

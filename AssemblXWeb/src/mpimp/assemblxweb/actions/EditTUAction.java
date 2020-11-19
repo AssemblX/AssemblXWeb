@@ -51,7 +51,6 @@ import mpimp.assemblxweb.db.TuSubunit.SequenceInputOption;
 import mpimp.assemblxweb.db.TuSubunit.TuSubunitDirection;
 import mpimp.assemblxweb.db.TuSubunit.TuSubunitSequenceOption;
 import mpimp.assemblxweb.db.TuSubunit.TuSubunitType;
-import mpimp.assemblxweb.db.util.AssemblXWebDBUtil;
 import mpimp.assemblxweb.util.AssemblXException;
 import mpimp.assemblxweb.util.AssemblXWebProperties;
 import mpimp.assemblxweb.util.GenbankAnnotationParser;
