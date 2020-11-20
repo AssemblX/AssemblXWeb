@@ -113,7 +113,7 @@ public class EditTUAction extends AbstractAssemblXAction implements ScopedModelD
 		buttonName_ = buttonName;
 	}
 
-	public void setSequenceFile(String sequenceFile) {
+	public void setSequenceFile(File sequenceFile) {
 		sequenceFile_ = sequenceFile;
 	}
 
@@ -207,9 +207,8 @@ public class EditTUAction extends AbstractAssemblXAction implements ScopedModelD
 
 		String sequenceFilePathName = tuSequencesDirectoryName + File.separator + sequenceFileFileName_;
 		File sequenceFile = new File(sequenceFilePathName);
-		File sequenceFileTemp = new File(sequenceFile_);
 		try {
-			Files.move(sequenceFileTemp, sequenceFile);
+			Files.move(sequenceFile_, sequenceFile);
 		} catch (Exception e) {
 			String message = "Error during moving uploaded sequence file to working directory. " + e.getMessage();
 			throw new AssemblXException(message, this.getClass());
@@ -443,7 +442,7 @@ public class EditTUAction extends AbstractAssemblXAction implements ScopedModelD
 
 	private Integer insertTuPosition_ = 2;
 	private String buttonName_ = "";
-	private String sequenceFile_ = "";
+	private File sequenceFile_;
 	private String sequenceFileFileName_ = "";
 	private Boolean mockPresent_ = false;
 
