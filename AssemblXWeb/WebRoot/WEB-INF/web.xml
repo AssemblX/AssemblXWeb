@@ -49,10 +49,6 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 		<filter-name>struts2</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-	<!-- <context-param>
-		<param-name>org.apache.tiles.impl.BasicTilesContainer.DEFINITIONS_CONFIG</param-name>
-		<param-value>/WEB-INF/jsp/tiles/tiles.xml</param-value>
-	</context-param> -->
 	<listener>
 		<listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
 	</listener>
