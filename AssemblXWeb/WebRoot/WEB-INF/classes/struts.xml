@@ -34,6 +34,10 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 <struts>
 	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.action.excludePattern" value="/struts/webconsole.html"/>
+	<constant name="struts.action.excludePattern" value="/struts/webconsole.css"/>
+	<constant name="struts.action.excludePattern" value="/struts/webconsole.js"/>
 	<package name="assemblx_web" extends="tiles-default">
 		<result-types>
 			<result-type name="tiles"
