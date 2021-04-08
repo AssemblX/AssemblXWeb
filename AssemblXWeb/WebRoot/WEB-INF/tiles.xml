@@ -29,8 +29,8 @@ Contributors:
 gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 */ -->
 <!DOCTYPE tiles-definitions PUBLIC
-       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
-       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 	<definition name="baseLayout" template="/WEB-INF/jsp/layouts/base.jsp">
 		<put-attribute name="title" value="AssemblX-Web" />
