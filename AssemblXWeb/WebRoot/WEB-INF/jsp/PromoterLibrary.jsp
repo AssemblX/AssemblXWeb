@@ -47,7 +47,7 @@ gremmels(at)mpimp-golm.mpg.de - initial API and implementation
 		Fluorescence values are given relative to TDH3 promoter-terminator
 		pair.
 	</section>
-	<s:url action="AssemblXWebIntroAction" id="seqFilesUrl">
+	<s:url action="AssemblXWebIntroAction" var="seqFilesUrl">
 		<s:param name="buttonName">seqFiles</s:param></s:url>
 	Sequences of all promoter-terminator pairs can be downloaded
 	<s:a href="%{seqFilesUrl}">here</s:a>
